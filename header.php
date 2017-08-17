@@ -9,6 +9,7 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title><?php wp_title( ' - ', true, 'right' ); ?></title>
 
     <?php cone_og_meta_tags(); ?>
@@ -17,7 +18,11 @@
 </head>
 <body>
 
-    <div class="header">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/annatoresdotter/assets/images/atLogo.png' ) ); ?>">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
-    </div>
+    <header>
+        <div class="max-width header">
+            <a href="<?php echo esc_url(home_url()); ?>">
+                <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/learnster-logo.png' ) ); ?>">
+            </a>
+            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
+        </div>
+    </header>
