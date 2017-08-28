@@ -146,6 +146,10 @@ function cone_enqueue_scripts() {
 
     wp_enqueue_script( 'swiper-scripts', get_template_directory_uri() . '/assets/js/lib/swiper.min.js', array('jquery'), 1.0, true );
 
+    wp_enqueue_script( 'hamburger-scripts', get_template_directory_uri() . '/assets/js/lib/hamburger.js', array('jquery'), 1.0, true );
+
+    wp_enqueue_style( 'hamburger-style', get_template_directory_uri() . '/assets/css/lib/hamburgers.min.css' );
+
     // vendor.css created with gulp
     wp_enqueue_style( 'main-min-style', get_template_directory_uri() . '/assets/css/src/main.min.css' );
 

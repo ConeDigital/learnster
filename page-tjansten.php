@@ -49,8 +49,8 @@
 <section class="max-width end-section">
     <?php the_field('service-last-text') ?>
     <div class="hero-buttons">
-        <a href="#">Boka demo</a>
-        <a href="#">Kontakta oss</a>
+        <a href="<?php echo esc_url(home_url('/boka-demo')); ?>">Boka demo</a>
+        <a href="<?php echo esc_url(home_url('kontakt')); ?>">Kontakta oss</a>
     </div>
 </section>
 

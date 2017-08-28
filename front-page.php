@@ -14,22 +14,19 @@
 </section>
 <div class="max-width partners-section">
     <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/academy.png' ) ); ?>">
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/stardust.png' ) ); ?>">
     </a>
     <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/blend.png' ) ); ?>">
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/legal-works.png' ) ); ?>">
     </a>
     <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/hermods.png' ) ); ?>">
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/key.png' ) ); ?>">
     </a>
     <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/ihm.jpg' ) ); ?>">
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/ec-utbildning.png' ) ); ?>">
     </a>
     <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/infor.png' ) ); ?>">
-    </a>
-    <a target="_blank" href="#">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/comp.png' ) ); ?>">
+        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/peopletransition.png' ) ); ?>">
     </a>
 </div>
 <section class="box-layout-section">

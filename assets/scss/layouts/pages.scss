@@ -1,0 +1,394 @@
+.small-hero{
+  height: 500px;
+
+  .hero-content{
+    max-width: 520px;
+  }
+}
+
+.contact-section{
+  padding: 112px 0 150px;
+
+  @include breakpoint(laptop) {
+    padding: 70px 0 150px;
+  }
+
+  @include breakpoint(small) {
+    padding: 25px 0 90px;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint(small) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+.contact-info{
+  margin-right: 40px;
+
+  h5{
+    font-size: 14px;
+    line-height: 1.86;
+    color: #c8c8c8;
+    margin: 0;
+  }
+  p, a{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 0.93;
+    color: #5e5e5e;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: $purple;
+    border-bottom: 1px solid #e4e4e4;
+    transition: 0.2s ease-in-out;
+
+    &:hover{
+      border-bottom: 1px solid $purple;
+    }
+  }
+}
+
+.contact-info-content{
+  margin-top: 20px;
+
+  &:last-child{
+    margin-top: 42px;
+    p{
+      line-height: 1.14;
+    }
+    a{
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.3;
+      margin-top: 13px;
+      display: inline-block;
+    }
+  }
+}
+
+.contact-map{
+  width: 100%;
+  max-width: 525px;
+
+  @include breakpoint(small) {
+    margin-top: 40px;
+  }
+}
+
+/*-----------------ABOUT STYLING------------------*/
+
+.medium-hero{
+  height: calc(100vh - 80px);
+
+  .hero-content{
+    margin: 0 auto;
+    max-width: 740px;
+  }
+
+  blockquote{
+    margin: 0;
+    padding-left: 100px;
+
+    @include breakpoint(tablet) {
+      padding-left: 65px;
+    }
+    @include breakpoint(mobile) {
+      padding-left: 55px;
+    }
+
+    p{
+      font-size: 70px;
+      font-weight: 600;
+      line-height: 1;
+      text-align: left;
+      color: #ffffff;
+      margin: 0;
+
+      @include breakpoint(tablet) {
+        font-size: 50px;
+      }
+      @include breakpoint(mobile) {
+        font-size: 40px;
+      }
+    }
+  }
+  h6{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: left;
+    color: #ffffff;
+    margin: 20px 0 0;
+    padding-left: 100px;
+
+    @include breakpoint(tablet) {
+      padding-left: 65px;
+    }
+    @include breakpoint(mobile) {
+      padding-left: 55px;
+    }
+  }
+}
+
+.blockq-img{
+  width: 75px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include breakpoint(tablet) {
+    width: 50px;
+  }
+  @include breakpoint(mobile) {
+    width: 40px;
+  }
+}
+
+.about-top-section{
+  padding: 112px 0;
+
+
+  @include breakpoint(laptop) {
+    padding: 90px 0 90px;
+  }
+
+  @include breakpoint(small) {
+    padding: 45px 0 45px;
+  }
+}
+
+.about-top{
+  display: flex;
+  max-width: 1000px;
+
+
+  @include breakpoint(medium) {
+    flex-direction: column;
+  }
+}
+
+.about-top-left{
+  width: 100%;
+  margin-right: 50px;
+
+  @include breakpoint(medium) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.about-top-right{
+  width: 100%;
+   p{
+     margin: 0 0 20px;
+   }
+}
+
+.about-team-section{
+  padding: 50px 0 100px;
+
+  @include breakpoint(laptop) {
+    padding: 20px 0 100px;
+  }
+  @include breakpoint(tablet) {
+    padding: 20px 0 60px;
+  }
+}
+
+.team-section{
+  max-width: 1140px;
+  padding: 0 10px;
+  width: calc(100% - 20px);
+  margin: 0 auto;
+
+  @include breakpoint(desktop) {
+    padding: 0 15px;
+    width: calc(100% - 30px);
+  }
+  @include breakpoint(tablet) {
+    padding: 0;
+    width: calc(100%);
+  }
+
+  h3{
+    padding-left: 20px;
+
+    @include breakpoint(tablet) {
+      padding-left: 15px;
+    }
+  }
+}
+
+.team-grid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  @include breakpoint(laptop) {
+    margin-top: 30px;
+  }
+}
+
+.team-card{
+  width: calc(33.3% - 40px);
+  margin: 0 20px 70px;
+
+  @include breakpoint(desktop) {
+    width: calc(33.3% - 30px);
+    margin: 0 15px 70px;
+  }
+  @include breakpoint(laptop) {
+    width: calc(50% - 30px);
+  }
+  @include breakpoint(small) {
+    width: calc(100% - 30px);
+  }
+
+  h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.67;
+    text-align: left;
+    color: #252525;
+    margin: 15px 0 0;
+  }
+  p{
+    margin: 0;
+  }
+}
+
+.team-card-img{
+  height: 29vw;
+  max-height: 372px;
+
+  @include breakpoint(laptop) {
+    height: 49vw;
+    max-height: 440px;
+  }
+  @include breakpoint(small) {
+    height: 104vw;
+    max-height: 426px;
+  }
+}
+
+/*-----------------BOOK STYLING------------------*/
+
+.book-hero{
+  height: calc(100vh - 80px);
+  background: linear-gradient(247deg, #ffc94e, #f03141);
+  display: flex;
+  align-items: center;
+}
+
+.book-hero-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img{
+    width: 50%;
+    margin-right: 40px;
+    max-width: 540px;
+
+    @include breakpoint(laptop) {
+      display: none;
+    }
+  }
+
+  h1{
+    font-size: 43px;
+    font-weight: 600;
+    text-align: left;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+
+    @include breakpoint(small) {
+      font-size: 41px;
+    }
+  }
+
+  p{
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.11;
+    color: #ffffff;
+    margin: 0;
+
+    @include breakpoint(small) {
+      font-size: 29px;
+    }
+
+  }
+}
+
+.book-form{
+  padding: 90px 0 115px;
+
+  @include breakpoint(tablet) {
+    padding: 45px 0 90px;
+  }
+}
+
+.book-input{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+
+  input{
+    background-color: #f9f9f9;
+    border: solid 1px #e0e0e0;
+    padding: 0 20px;
+    height: 60px;
+    outline: none;
+    margin-top: 10px;
+    width: calc(100% - 42px);
+    color: #512da7;
+
+    &:focus{
+      background-color: #f9f6ff;
+      border: solid 1px #c5b8e4;
+    }
+    &:visited{
+      background-color: #f9f6ff;
+      border: solid 1px #c5b8e4;
+    }
+  }
+  label{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: left;
+    color: #5e5e5e;
+  }
+  input[type=submit]{
+    max-width: 200px;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #512da7;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    transition: background 0.2s ease-in-out;
+
+    &:hover{
+      background: darken($purple, 15%);
+    }
+  }
+}
