@@ -5,27 +5,27 @@
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">
-                <a href="#">Berätta mer</a>
-                <a href="#">Se vår film</a>
+                <a href="<?php echo esc_url(home_url('/tjansten')); ?>">Berätta mer</a>
+                <a target="_blank" href="https://vimeo.com/220769146">Se vår film</a>
             </div>
         </div>
     </div>
     <img class="tablet-img" src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/tablet.png' ) ); ?>">
 </section>
 <div class="max-width partners-section">
-    <a target="_blank" href="#">
+    <a target="_blank" href="http://www.stardustconsulting.se/">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/stardust.png' ) ); ?>">
     </a>
-    <a target="_blank" href="#">
+    <a target="_blank" href="http://legalworks.se/">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/legal-works.png' ) ); ?>">
     </a>
-    <a target="_blank" href="#">
+    <a target="_blank" href="http://www.keytraining.se/">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/key.png' ) ); ?>">
     </a>
-    <a target="_blank" href="#">
+    <a target="_blank" href="http://www.ecutbildning.se/">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/ec-utbildning.png' ) ); ?>">
     </a>
-    <a target="_blank" href="#">
+    <a target="_blank" href="http://peopletransition.com/">
         <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/peopletransition.png' ) ); ?>">
     </a>
 </div>
@@ -34,7 +34,7 @@
         <div class="box-layout-content">
             <h2><?php the_field('home-first-headline') ; ?></h2>
             <p><?php the_field('home-first-text') ; ?></p>
-            <a class="regular-link" href="#">Få mer tid över till att utbilda <i class="material-icons">trending_flat</i></a>
+            <a class="regular-link" href="<?php echo esc_url(home_url('/boka-demo')); ?>">Få mer tid över till att utbilda <i class="material-icons">trending_flat</i></a>
         </div>
         <div class="box-layout-img background-img" style="background-image: url('<?php the_field('home-first-img') ; ?>')"></div>
     </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="half-contents">
         <h2><?php the_field('home-second-text') ; ?></h2>
-        <a class="regular-link" href="#">Hur då? Berätta mer <i class="material-icons">trending_flat</i></a>
+        <a class="regular-link" href="<?php echo esc_url(home_url('/tjansten')); ?>">Hur då? Berätta mer <i class="material-icons">trending_flat</i></a>
     </div>
 </section>
 <section class="swiper-section">
@@ -83,7 +83,7 @@
 <section class="home-contact">
     <div class="max-width medium-width">
         <h3>Håll dig uppdaterad med de senaste utbildningstrenderna!</h3>
-        <?php echo do_shortcode('[contact-form-7 id="12" title="Prenumerera"]') ; ?>
+        <?php echo do_shortcode('[mc4wp_form id="108"]') ; ?>
     </div>
 </section>
 

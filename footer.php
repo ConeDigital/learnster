@@ -9,9 +9,9 @@
     <footer class="max-width">
         <div class="footer-item">
             <a href="<?php echo esc_url(home_url('/tjansten')); ?>">Tjänsten</a>
-            <a href="#">Blogg</a>
-            <a href="#">Om oss</a>
-            <a href="#">Kontakt</a>
+            <a href="<?php echo esc_url(home_url('/om-oss')); ?>">Om oss</a>
+            <a href="<?php echo esc_url(home_url('/kontakt')); ?>">Kontakt</a>
+            <a href="<?php echo esc_url(home_url('/boka-demo')); ?>">Boka demo</a>
         </div>
         <div class="footer-item">
             <div class="footer-content">

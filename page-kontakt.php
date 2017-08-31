@@ -23,7 +23,7 @@
                     <p>Saltmätargatan 5,</p>
                     <p>113 59 Stockholm</p>
                     <p>Sweden</p>
-                    <a href="#">Se karta</a>
+<!--                    <a href="#">Se karta</a>-->
                 </div>
             </div>
             <div class="contact-map">

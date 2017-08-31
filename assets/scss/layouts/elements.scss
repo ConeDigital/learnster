@@ -2,7 +2,7 @@ body{
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: jaf-domus, sans-serif;}
+  font-family: 'jaf-domus', sans-serif;}
 
 h2{
   font-size: 42px;
@@ -163,9 +163,10 @@ p{
 .tablet-img{
   position: absolute;
   z-index: 0;
-  right: -75px;
+  right: -40px;
   height: auto;
-  width: 50%;
+  width: 45%;
+  margin-top: 20px;
 
   @include breakpoint(laptop) {
     display: none;
