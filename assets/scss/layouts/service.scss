@@ -37,6 +37,9 @@
     width: 900px;
     height: auto;
     bottom: -27px;
+    margin: auto;
+    left: 0;
+    right: 0;
 
     @include breakpoint(laptop) {
       display: none;
@@ -50,6 +53,9 @@
 
   @include breakpoint(laptop) {
     margin-bottom: 0;
+  }
+  h1{
+    font-size: 26px;
   }
 }
 
@@ -92,6 +98,10 @@
   right: 0;
   display: flex;
   justify-content: flex-end;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  align-items: center;
 
   @include breakpoint(laptop) {
     position: relative;

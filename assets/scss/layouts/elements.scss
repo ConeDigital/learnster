@@ -166,7 +166,9 @@ p{
   right: -40px;
   height: auto;
   width: 45%;
-  margin-top: 20px;
+  margin: auto;
+  top:20px;
+  bottom: 0;
 
   @include breakpoint(laptop) {
     display: none;

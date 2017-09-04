@@ -83,7 +83,7 @@
 <section class="home-contact">
     <div class="max-width medium-width">
         <h3>Håll dig uppdaterad med de senaste utbildningstrenderna!</h3>
-        <?php echo do_shortcode('[mc4wp_form id="108"]') ; ?>
+        <?php echo do_shortcode('[mc4wp_form id="126"]') ; ?>
     </div>
 </section>
 
