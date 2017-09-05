@@ -8,16 +8,24 @@
  */
 ?>
 
-<?php
-    if ( is_single() || is_page() ) :
-        
-        the_title( '<h1>', '</h1>' );
+<?php if ( is_single() || is_page() ) : ?>
 
-    else :
+    <section class="hero small-hero">
+        <div class="max-width">
+            <div class="hero-content">
+                <h1><?php the_title() ; ?></h1>
+            </div>
+        </div>
+    </section>
+    <section class="page-section">
+        <div class="max-width page-width">
+            <?php the_content(); ?>
+        </div>
+    </section>
+
+<?php else : ?>
 
         the_title( '<h2><a href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
     
-    endif;
-?>
+<?php endif; ?>
 
-<?php the_content(); ?>

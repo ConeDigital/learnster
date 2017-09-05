@@ -10,6 +10,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/learnsterfavo.png' ) ); ?>">
     <title><?php wp_title( ' - ', true, 'right' ); ?></title>
 
     <?php cone_og_meta_tags(); ?>

@@ -392,3 +392,62 @@
     }
   }
 }
+
+/*-----------------SINGLE PAGE STYLING------------------*/
+
+.page-section{
+  padding: 112px 0;
+
+  @include breakpoint(laptop) {
+    padding: 90px 0 90px;
+  }
+
+  @include breakpoint(small) {
+    padding: 45px 0 45px;
+  }
+}
+
+.page-width{
+  max-width: 700px;
+
+  img{
+    max-width: 100%;
+    height: auto;
+    margin: 19px 0 25px;;
+  }
+
+  p{
+    margin: 0 0 15px;
+  }
+  h1, h2, h3, h4{
+    margin: 45px 0 15px;
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+
+    &:hover{
+      border-bottom: 1px solid $purple;
+    }
+  }
+
+  li{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  blockquote{
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 0 0 28px;
+    margin: 17px 0 24px;
+    border-left: 1px dotted $purple;
+    position: relative;
+  }
+}
