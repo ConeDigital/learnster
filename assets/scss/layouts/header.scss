@@ -218,6 +218,14 @@ footer{
   border-top: 2px solid #f2f2f2;
   padding-top: 22px !important;
   padding-bottom: 41px !important;
+  justify-content: space-between;
+
+  #lang_sel a, #lang_sel a.lang_sel_sel {
+    border-radius: 3px;
+    background-color: #eeeeee !important;
+    font-size: 14px;
+    color: #262626;
+  }
 }
 
 .footer-item{
@@ -253,4 +261,8 @@ footer{
 
 .footer-content{
   margin-bottom: 16px;
+}
+
+.footer-section{
+  display: flex;
 }

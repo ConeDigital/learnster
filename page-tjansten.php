@@ -4,7 +4,7 @@
     <div class="service-hero-content max-width">
         <?php the_content() ; ?>
     </div>
-    <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/service-hero.png' ) ); ?>">
+    <img src="https://www.learnster.com/wp-content/uploads/2017/09/service-hero.png">
 </section>
 <section class="service-half-section">
     <img src="<?php the_field('service-first-img') ?>">
@@ -35,7 +35,7 @@
     </div>
 </section>
 <section class="three-col-section">
-    <div class="max-width big-width big-img"><img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/bigdevice.png' ) ); ?>"></div>
+    <div class="max-width big-width big-img"><img src="https://www.learnster.com/wp-content/uploads/2017/09/bigdevice.png"></div>
     <div class="max-width three-row">
         <?php if( have_rows('service-perks') ): ?>
             <?php while( have_rows('service-perks') ) : the_row();?>
@@ -49,8 +49,8 @@
 <section class="max-width end-section">
     <?php the_field('service-last-text') ?>
     <div class="hero-buttons">
-        <a href="<?php echo esc_url(home_url('/boka-demo')); ?>">Boka demo</a>
-        <a href="<?php echo esc_url(home_url('kontakt')); ?>">Kontakta oss</a>
+        <a href="<?php echo esc_url(home_url('/boka-demo')); ?>"><?php _e('Boka demo', 'skeleton'); ?></a>
+        <a href="<?php echo esc_url(home_url('kontakt')); ?>"><?php _e('Kontakta oss', 'skeleton'); ?></a>
     </div>
 </section>
 

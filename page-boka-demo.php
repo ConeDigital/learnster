@@ -2,7 +2,7 @@
 
     <section class="book-hero">
         <div class="book-hero-content max-width">
-            <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/bookdemo.png' ) ); ?>">
+            <img src="https://www.learnster.com/wp-content/uploads/2017/09/bookdemo.png">
             <div>
                 <?php the_content() ; ?>
             </div>

@@ -3,7 +3,7 @@
     <section class="hero medium-hero">
         <div class="max-width">
             <div class="hero-content">
-                <img class="blockq-img" src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/blockq.png' ) ); ?>">
+                <img class="blockq-img" src="https://www.learnster.com/wp-content/uploads/2017/09/blockq.png">
                 <?php the_content() ; ?>
             </div>
         </div>
@@ -39,8 +39,8 @@
     <section class="max-width end-section">
         <?php the_field('service-last-text') ?>
         <div class="hero-buttons">
-            <a href="<?php echo esc_url(home_url('/boka-demo')); ?>">Boka demo</a>
-            <a href="<?php echo esc_url(home_url('kontakt')); ?>">Kontakta oss</a>
+            <a href="<?php echo esc_url(home_url('/boka-demo')); ?>"><?php _e('Boka demo', 'skeleton'); ?></a>
+            <a href="<?php echo esc_url(home_url('kontakt')); ?>"><?php _e('Kontakta oss', 'skeleton'); ?></a>
         </div>
     </section>
 <?php get_footer() ; ?>

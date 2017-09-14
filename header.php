@@ -22,7 +22,7 @@
     <header>
         <div class="max-width header">
             <a href="<?php echo esc_url(home_url()); ?>">
-                <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/newlearnster.png' ) ); ?>">
+                <img src="https://www.learnster.com/wp-content/uploads/2017/09/newlearnster.png">
             </a>
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
             <button class="hamburger hamburger--spin" type="button">

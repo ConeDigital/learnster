@@ -5,28 +5,28 @@
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">
-                <a href="<?php echo esc_url(home_url('/tjansten')); ?>">Berätta mer</a>
-                <a target="_blank" href="https://vimeo.com/220769146">Se vår film</a>
+                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mer', 'skeleton'); ?></a>
+                <a target="_blank" href="https://vimeo.com/220769146"><?php _e('Se vår film', 'skeleton'); ?></a>
             </div>
         </div>
     </div>
-    <img class="tablet-img" src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/tablet.png' ) ); ?>">
+    <img class="tablet-img" src="https://www.learnster.com/wp-content/uploads/2017/09/tablet.png">
 </section>
 <div class="max-width partners-section">
     <a target="_blank" href="http://www.stardustconsulting.se/">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/stardust.png' ) ); ?>">
+        <img src="https://www.learnster.com/wp-content/uploads/2017/09/stardust.png">
     </a>
     <a target="_blank" href="http://legalworks.se/">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/legal-works.png' ) ); ?>">
+        <img src="https://www.learnster.com/wp-content/uploads/2017/09/legal-works.png">
     </a>
     <a target="_blank" href="http://www.keytraining.se/">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/key.png' ) ); ?>">
+        <img src="https://www.learnster.com/wp-content/uploads/2017/09/key.png">
     </a>
     <a target="_blank" href="http://www.ecutbildning.se/">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/ec-utbildning.png' ) ); ?>">
+        <img src="https://www.learnster.com/wp-content/uploads/2017/09/ec-utbildning.png">
     </a>
     <a target="_blank" href="http://peopletransition.com/">
-        <img src="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/peopletransition.png' ) ); ?>">
+        <img src="https://www.learnster.com/wp-content/uploads/2017/09/peopletransition.png">
     </a>
 </div>
 <section class="box-layout-section">
@@ -34,7 +34,7 @@
         <div class="box-layout-content">
             <h2><?php the_field('home-first-headline') ; ?></h2>
             <p><?php the_field('home-first-text') ; ?></p>
-            <a class="regular-link" href="<?php echo esc_url(home_url('/boka-demo')); ?>">Få mer tid över till att utbilda <i class="material-icons">trending_flat</i></a>
+            <a class="regular-link" href="<?php echo esc_url(home_url('/boka-demo')); ?>"><?php _e('Få mer tid över till att utbilda', 'skeleton'); ?> <i class="material-icons">trending_flat</i></a>
         </div>
         <div class="box-layout-img background-img" style="background-image: url('<?php the_field('home-first-img') ; ?>')"></div>
     </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="half-contents">
         <h2><?php the_field('home-second-text') ; ?></h2>
-        <a class="regular-link" href="<?php echo esc_url(home_url('/tjansten')); ?>">Hur då? Berätta mer <i class="material-icons">trending_flat</i></a>
+        <a class="regular-link" href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Hur då? Berätta mer ', 'skeleton'); ?><i class="material-icons">trending_flat</i></a>
     </div>
 </section>
 <section class="swiper-section">
@@ -82,7 +82,7 @@
 </section>
 <section class="home-contact">
     <div class="max-width medium-width">
-        <h3>Håll dig uppdaterad med de senaste utbildningstrenderna!</h3>
+        <h3><?php _e('Håll dig uppdaterad med de senaste utbildningstrenderna!', 'skeleton'); ?></h3>
         <?php echo do_shortcode('[mc4wp_form id="126"]') ; ?>
     </div>
 </section>

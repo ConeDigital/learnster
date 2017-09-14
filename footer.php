@@ -7,23 +7,26 @@
 ?>
 
     <footer class="max-width">
-        <div class="footer-item">
-            <a href="<?php echo esc_url(home_url('/tjansten')); ?>">Tjänsten</a>
-            <a href="<?php echo esc_url(home_url('/om-oss')); ?>">Om oss</a>
-            <a href="<?php echo esc_url(home_url('/kontakt')); ?>">Kontakt</a>
-            <a href="<?php echo esc_url(home_url('/boka-demo')); ?>">Boka demo</a>
-        </div>
-        <div class="footer-item">
-            <div class="footer-content">
-                <span>Besöksadress</span>
-                <p>Saltmätargatan 5, 113 59</p>
-                <p>Stockholm.</p>
+        <div class="footer-section">
+            <div class="footer-item">
+                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Tjänsten', 'skeleton'); ?></a>
+                <a href="<?php echo esc_url(home_url('/om-oss')); ?>"><?php _e('Om oss', 'skeleton'); ?></a>
+                <a href="<?php echo esc_url(home_url('/kontakt')); ?>"><?php _e('Kontakt', 'skeleton'); ?></a>
+                <a href="<?php echo esc_url(home_url('/boka-demo')); ?>"><?php _e('Boka demo', 'skeleton'); ?></a>
             </div>
-            <div class="footer-content">
-                <p>Copyright © Learnster AB.</p>
-                <p> All rights reserved.</p>
+            <div class="footer-item">
+                <div class="footer-content">
+                    <span><?php _e('Besöksadress', 'skeleton'); ?></span>
+                    <p>Saltmätargatan 5, 113 59</p>
+                    <p>Stockholm.</p>
+                </div>
+                <div class="footer-content">
+                    <p>Copyright © Learnster AB.</p>
+                    <p> All rights reserved.</p>
+                </div>
             </div>
         </div>
+        <?php do_action('wpml_add_language_selector'); ?>
     </footer>
 
     <?php wp_footer(); ?>
