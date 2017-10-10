@@ -160,3 +160,39 @@ add_action( 'wp_enqueue_scripts', 'cone_enqueue_scripts' );
 
 // Custom template tags
 require get_template_directory() . '/inc/template-tags.php';
+
+//Do not wrap img in p tags
+function filter_ptags_on_images($content){
+    return preg_replace('/<p>\\s*?(<a .*?><img.*?><\\/a>|<img.*?>)?\\s*<\\/p>/s', '\1', $content);
+}
+add_filter('the_content', 'filter_ptags_on_images');
+
+//Blog pagination
+function pagination_bar( $custom_query ) {
+
+    $total_pages = $custom_query->max_num_pages;
+    $big = 999999999; // need an unlikely integer
+
+    if ($total_pages > 1){
+        $current_page = max(1, get_query_var('paged'));
+
+        echo paginate_links(array(
+            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+            'format' => '?paged=%#%',
+            'current' => $current_page,
+            'total' => $total_pages,
+        ));
+    }
+}
+
+
+function language_selector_flags(){
+    $languages = icl_get_languages('wpml_active_languages', NULL, 'skip_missing=0&orderby=code');
+    if(!empty($languages)){
+        foreach($languages as $l){
+            if(!$l['active']) echo '<a href="'.$l['url'].'">';
+            echo '<img src="'.$l['country_flag_url'].'" height="12" alt="'.$l['language_code'].'" width="18" />';
+            if(!$l['active']) echo '</a>';
+        }
+    }
+}

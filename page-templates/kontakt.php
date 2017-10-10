@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Kontakt
+ */
+?>
 <?php get_header() ; ?>
 
     <section class="hero small-hero">

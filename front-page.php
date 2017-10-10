@@ -1,16 +1,20 @@
 <?php get_header() ; ?>
 
+    <div class="lightbox">
+        <i class="material-icons close-lightbox">cancel</i>
+        <iframe src="<?php the_field('lightbox-video') ; ?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
 <section class="hero">
     <div class="max-width">
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">
                 <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mer', 'skeleton'); ?></a>
-                <a target="_blank" href="https://vimeo.com/220769146"><?php _e('Se vår film', 'skeleton'); ?></a>
+                <a class="open-lightbox"><?php _e('Se vår film', 'skeleton'); ?></a>
             </div>
         </div>
     </div>
-    <img class="tablet-img" src="https://www.learnster.com/wp-content/uploads/2017/09/tablet.png">
+    <img class="tablet-img" src="<?php the_post_thumbnail_url() ; ?>">
 </section>
 <div class="max-width partners-section">
     <a target="_blank" href="http://www.stardustconsulting.se/">
@@ -63,7 +67,6 @@
             </div>
         </div>
     </div>
-
     <div class="swiper-container swiper-bottom">
         <div class="swiper-wrapper">
             <?php if( have_rows('slider') ): ?>

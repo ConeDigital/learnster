@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Boka demo
+ */
+?>
 <?php get_header() ; ?>
 
     <section class="book-hero">

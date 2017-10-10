@@ -86,6 +86,24 @@ header{
   }
 }
 
+.header-content{
+  display: flex;
+  align-items: center;
+
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
+
+#flags_language_selector{
+  margin-left: 15px;
+
+  img{
+    margin-left: 10px;
+    height: 23px;
+  }
+}
+
 // --------- HAMBURGER STYLING --------------
 
 .hamburger{

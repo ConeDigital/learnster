@@ -24,7 +24,10 @@
             <a href="<?php echo esc_url(home_url()); ?>">
                 <img src="https://www.learnster.com/wp-content/uploads/2017/09/newlearnster.png">
             </a>
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
+            <div class="header-content">
+                <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
+                <div id="flags_language_selector"><?php language_selector_flags(); ?></div >
+            </div>
             <button class="hamburger hamburger--spin" type="button">
                 <span class="hamburger-box">
                     <span class="hamburger-inner"></span>

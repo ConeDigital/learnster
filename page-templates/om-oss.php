@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Om oss
+ */
+?>
 <?php get_header() ; ?>
 
     <section class="hero medium-hero">

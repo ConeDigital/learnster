@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Tjänsten
+ */
+?>
 <?php get_header() ; ?>
 
 <section class="service-hero">
