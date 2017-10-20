@@ -71,7 +71,7 @@ header{
       a{
         border-radius: 20px;
         border: solid 1px $purple;
-        padding: 8px 11px;
+        padding: 8px 18px;
 
         &:after{
           display: none;
@@ -238,18 +238,53 @@ footer{
   padding-bottom: 41px !important;
   justify-content: space-between;
 
+  @include breakpoint(mobile) {
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
   #lang_sel a, #lang_sel a.lang_sel_sel {
     border-radius: 3px;
     background-color: #eeeeee !important;
     font-size: 14px;
     color: #262626;
   }
+
+  #lang_sel{
+
+    a{
+      padding: 7px 10px;
+      box-sizing: border-box;
+      width: 180px;
+
+    }
+    a.lang_sel_sel{
+      background: none;
+    }
+    ul{
+      border-top: 0 !important;
+
+      ul{
+        li{
+          top:15px;
+
+          a{
+            padding: 13px 10px;
+          }
+        }
+      }
+    }
+    li{
+      width:180px;
+    }
+  }
 }
 
 .footer-item{
   margin-top: 11px;
   width: 100%;
-  max-width: 180px;
+  max-width: 238px;
 
   a{
     display: block;
@@ -271,6 +306,7 @@ footer{
     line-height: 1.29;
     text-align: left;
     color: #5f5f5f;
+    display: inline-block;
   }
   span{
     color: #262626;
@@ -283,4 +319,19 @@ footer{
 
 .footer-section{
   display: flex;
+}
+
+.footer-dropdown{
+  position: relative;
+
+  @include breakpoint(mobile) {
+    margin-top: 20px;
+  }
+
+  i{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: $purple;
+  }
 }

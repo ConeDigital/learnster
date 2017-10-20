@@ -34,6 +34,18 @@
   }
 }
 
+.home-hero{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+
+  @include breakpoint(laptop) {
+    min-height: 0;
+  }
+}
+
 
 .partners-section{
   display: flex;

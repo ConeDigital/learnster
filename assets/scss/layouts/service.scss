@@ -1,21 +1,11 @@
 .service-hero{
-  height: 100vh;
+  height: auto;
   background: linear-gradient(247deg, #ffc94e, #f03141);
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
   align-items: center;
-
-  @include breakpoint(laptop) {
-    height: 64vw;
-  }
-  @include breakpoint(tablet) {
-    height: 80vw;
-  }
-  @include breakpoint(small) {
-    height: calc(100vh - 100px);
-  }
 
   h1{
     font-size: 36px;
@@ -49,7 +39,9 @@
 
 .service-hero-content{
   max-width: 600px;
-  margin-bottom: 236px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 294px;
 
   @include breakpoint(laptop) {
     margin-bottom: 0;

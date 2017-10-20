@@ -26,7 +26,10 @@
                 </div>
             </div>
         </div>
-        <?php do_action('wpml_add_language_selector'); ?>
+        <div class="footer-dropdown">
+            <?php do_action('wpml_add_language_selector'); ?>
+            <i class="material-icons">keyboard_arrow_down</i>
+        </div>
     </footer>
 
     <?php wp_footer(); ?>

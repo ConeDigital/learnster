@@ -5,7 +5,7 @@
         <iframe src="<?php the_field('lightbox-video') ; ?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
 <section class="hero">
-    <div class="max-width">
+    <div class="max-width home-hero">
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">

@@ -45,7 +45,7 @@
   p, a{
     font-size: 25px;
     font-weight: 300;
-    line-height: 0.93;
+    line-height: 1.14;
     color: #5e5e5e;
     margin: 0;
   }
@@ -58,6 +58,10 @@
     &:hover{
       border-bottom: 1px solid $purple;
     }
+  }
+
+  .map-link{
+    font-size: 20px;
   }
 }
 
@@ -143,11 +147,19 @@
   }
 }
 
+.about-hero{
+  height: auto;
+
+  .hero-content{
+    padding: 90px 0;
+  }
+}
+
 .blockq-img{
   width: 75px;
   height: auto;
   position: absolute;
-  top: 0;
+  top: 90px;
   left: 0;
 
   @include breakpoint(tablet) {

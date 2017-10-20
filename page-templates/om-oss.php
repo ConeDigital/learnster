@@ -5,7 +5,7 @@
 ?>
 <?php get_header() ; ?>
 
-    <section class="hero medium-hero">
+    <section class="hero medium-hero about-hero">
         <div class="max-width">
             <div class="hero-content">
                 <img class="blockq-img" src="https://www.learnster.com/wp-content/uploads/2017/09/blockq.png">
