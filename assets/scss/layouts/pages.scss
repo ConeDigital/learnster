@@ -54,6 +54,7 @@
     color: $purple;
     border-bottom: 1px solid #e4e4e4;
     transition: 0.2s ease-in-out;
+    display: inline-block;
 
     &:hover{
       border-bottom: 1px solid $purple;
