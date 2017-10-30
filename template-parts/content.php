@@ -51,6 +51,20 @@
         </p>
         <h1><?php the_title() ; ?></h1>
         <?php the_content() ; ?>
+        <div class="share-section">
+            <div class="sharer social-icon-box" data-sharer="facebook" data-width="800" data-height="600" data-title="Checkout Sharer.js!" data-url="<?php the_permalink(); ?>" style="background-color: #1164BB;">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="sharer social-icon-box"  data-sharer="twitter" data-width="800" data-height="600" data-title="Checkout Sharer.js!" data-url="<?php the_permalink(); ?>" style="background-color: #1BA6FF;">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="sharer social-icon-box" data-sharer="email" data-url="<?php the_permalink(); ?>" data-subject="Nytt inlägg från Learnster" style="background-color: #E5362E;">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="sharer social-icon-box" data-sharer="linkedin" data-width="800" data-height="600" data-title="Checkout Sharer.js!" data-url="<?php the_permalink(); ?>" style="background-color: #0077B5;">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </div>
         <div class="author-content">
             <div class="author-img">
                 <?php echo get_avatar( $id_or_email, $size, $default, $alt ); ?>

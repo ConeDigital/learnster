@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="<?php echo esc_url(home_url( '/wp-content/themes/learnster/assets/images/learnsterfavo.png' ) ); ?>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title><?php wp_title( ' - ', true, 'right' ); ?></title>
 
     <?php cone_og_meta_tags(); ?>
