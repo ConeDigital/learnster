@@ -18,19 +18,19 @@
 </section>
 <div class="max-width partners-section">
     <a target="_blank" href="http://www.stardustconsulting.se/">
-        <img src="https://www.learnster.com/wp-content/uploads/2017/09/stardust.png">
+        <img src="https://learnster.com/wp-content/uploads/2017/09/stardust.png">
     </a>
     <a target="_blank" href="http://legalworks.se/">
-        <img src="https://www.learnster.com/wp-content/uploads/2017/09/legal-works.png">
+        <img src="https://learnster.com/wp-content/uploads/2017/09/legal-works.png">
     </a>
     <a target="_blank" href="http://www.keytraining.se/">
-        <img src="https://www.learnster.com/wp-content/uploads/2017/09/key.png">
+        <img src="https://learnster.com/wp-content/uploads/2017/09/key.png">
     </a>
     <a target="_blank" href="http://www.ecutbildning.se/">
-        <img src="https://www.learnster.com/wp-content/uploads/2017/09/ec-utbildning.png">
+        <img src="https://learnster.com/wp-content/uploads/2017/09/ec-utbildning.png">
     </a>
     <a target="_blank" href="http://peopletransition.com/">
-        <img src="https://www.learnster.com/wp-content/uploads/2017/09/peopletransition.png">
+        <img src="https://learnster.com/wp-content/uploads/2017/09/peopletransition.png">
     </a>
 </div>
 <section class="box-layout-section">

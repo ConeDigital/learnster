@@ -23,7 +23,7 @@
     <header>
         <div class="max-width header">
             <a href="<?php echo esc_url(home_url()); ?>">
-                <img src="https://www.learnster.com/wp-content/uploads/2017/09/newlearnster.png">
+                <img src="https://learnster.com/wp-content/uploads/2017/09/newlearnster.png">
             </a>
             <div class="header-content">
                 <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => '' ) ); ?>
