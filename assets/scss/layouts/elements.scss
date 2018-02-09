@@ -162,10 +162,12 @@ p{
   z-index: 0;
   right: -40px;
   height: auto;
-  width: 45%;
+  width: auto;
   margin: auto;
   top:20px;
   bottom: 0;
+  max-height: 480px;
+  max-width: 45%;
 
   @include breakpoint(laptop) {
     display: none;

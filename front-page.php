@@ -9,7 +9,7 @@
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">
-                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mera', 'skeleton'); ?></a>
+                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mer', 'skeleton'); ?></a>
                 <a class="open-lightbox"><?php _e('Se vår film', 'skeleton'); ?></a>
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="box-layout-content">
             <h2><?php the_field('home-first-headline') ; ?></h2>
             <p><?php the_field('home-first-text') ; ?></p>
-            <a class="regular-link" href="<?php echo esc_url(home_url('/boka-demo')); ?>"><?php _e('Få mer tid över till att utbilda', 'skeleton'); ?> <i class="material-icons">trending_flat</i></a>
+            <a class="regular-link" href="<?php the_field('home-first-link'); ?>"><?php the_field('home-first-link-text'); ?> <i class="material-icons">trending_flat</i></a>
         </div>
         <div class="box-layout-img background-img" style="background-image: url('<?php the_field('home-first-img') ; ?>')"></div>
     </div>
@@ -49,7 +49,7 @@
     </div>
     <div class="half-contents">
         <h2><?php the_field('home-second-text') ; ?></h2>
-        <a class="regular-link" href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Hur då? Berätta mer ', 'skeleton'); ?><i class="material-icons">trending_flat</i></a>
+        <a class="regular-link" href="<?php the_field('home-second-link'); ?>"><?php the_field('home-second-link-text'); ?><i class="material-icons">trending_flat</i></a>
     </div>
 </section>
 <section class="swiper-section">
