@@ -9,7 +9,7 @@
         <div class="hero-content">
             <?php the_content() ; ?>
             <div class="hero-buttons">
-                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mer', 'skeleton'); ?></a>
+                <a href="<?php echo esc_url(home_url('/tjansten')); ?>"><?php _e('Berätta mera', 'skeleton'); ?></a>
                 <a class="open-lightbox"><?php _e('Se vår film', 'skeleton'); ?></a>
             </div>
         </div>
