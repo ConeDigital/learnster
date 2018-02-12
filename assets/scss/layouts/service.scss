@@ -240,3 +240,11 @@
     }
   }
 }
+
+.big-padding{
+  padding-bottom: 300px;
+
+  @include breakpoint(laptop) {
+    padding-bottom: 0;
+  }
+}

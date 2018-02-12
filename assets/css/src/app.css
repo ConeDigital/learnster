@@ -1468,6 +1468,12 @@ footer {
       margin-top: 15px;
       display: block; }
 
+.big-padding {
+  padding-bottom: 300px; }
+  @media (max-width: 900px) {
+    .big-padding {
+      padding-bottom: 0; } }
+
 .small-hero {
   height: 500px; }
   .small-hero .hero-content {
@@ -1678,10 +1684,7 @@ footer {
       width: -webkit-calc(100%);
       width: calc(100%); } }
   .team-section h3 {
-    padding-left: 20px; }
-    @media (max-width: 700px) {
-      .team-section h3 {
-        padding-left: 15px; } }
+    text-align: center; }
 
 .team-grid {
   display: -webkit-box;

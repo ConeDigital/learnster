@@ -19,7 +19,7 @@
         </div>
     </div>
 </section>
-<section class="half-section max-width half-section-img">
+<section class="half-section max-width half-section-img big-padding">
     <div class="half-contents">
         <?php the_field('service-second-text') ?>
     </div>
@@ -27,18 +27,18 @@
         <img src="<?php the_field('service-second-img') ?>">
     </div>
 </section>
-<section class="half-grey-section">
-    <div class="half-section max-width half-section-img half-reverse">
-        <div class="half-contents">
-            <img src="<?php the_field('service-third-img') ?>">
-        </div>
-        <div class="half-contents half-contents-flex">
-            <div class="half-small-content">
-                <?php the_field('service-third-text') ?>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section class="half-grey-section">-->
+<!--    <div class="half-section max-width half-section-img half-reverse">-->
+<!--        <div class="half-contents">-->
+<!--            <img src="--><?php //the_field('service-third-img') ?><!--">-->
+<!--        </div>-->
+<!--        <div class="half-contents half-contents-flex">-->
+<!--            <div class="half-small-content">-->
+<!--                --><?php //the_field('service-third-text') ?>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <section class="three-col-section">
     <div class="max-width big-width big-img"><img src="https://www.learnster.com/wp-content/uploads/2017/09/bigdevice.png"></div>
     <div class="max-width three-row">
