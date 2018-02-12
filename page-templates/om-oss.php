@@ -25,7 +25,7 @@
     </section>
     <section class="about-team-section">
         <div class="team-section">
-            <h3>Vårt team</h3>
+            <h3><?php _e('Vårt team', 'skeleton'); ?></h3>
             <div class="team-grid" >
                 <?php if( have_rows('team') ): ?>
                     <?php while( have_rows('team') ) : the_row();?>

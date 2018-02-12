@@ -160,6 +160,14 @@
   }
 }
 
+.grey-section{
+  background: #f5f2ee;
+
+  @include breakpoint(laptop) {
+    background: white;
+  }
+}
+
 .three-col-section{
   position: relative;
   padding:22vw 0 105px;
@@ -242,9 +250,11 @@
 }
 
 .big-padding{
-  padding-bottom: 300px;
+  padding-bottom: 260px;
+  padding-top: 120px;
 
   @include breakpoint(laptop) {
     padding-bottom: 0;
+    padding-top: 45px;
   }
 }

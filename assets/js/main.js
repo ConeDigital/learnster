@@ -64,7 +64,7 @@ jQuery(document).ready( function($) {
     var heroBottom = new Swiper('.swiper-top', {
         spaceBetween: 0,
         centeredSlides: false,
-        slidesPerView: 4,
+        slidesPerView: 3,
         slideToClickedSlide: true,
         onClick: function (swiper, event){
             var clicked = swiper.clickedIndex;

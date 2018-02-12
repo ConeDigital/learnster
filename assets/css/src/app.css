@@ -1392,6 +1392,12 @@ footer {
   .half-grey-section .half-contents img {
     max-width: 500px; }
 
+.grey-section {
+  background: #f5f2ee; }
+  @media (max-width: 900px) {
+    .grey-section {
+      background: white; } }
+
 .three-col-section {
   position: relative;
   padding: 22vw 0 105px; }
@@ -1469,10 +1475,12 @@ footer {
       display: block; }
 
 .big-padding {
-  padding-bottom: 300px; }
+  padding-bottom: 260px;
+  padding-top: 120px; }
   @media (max-width: 900px) {
     .big-padding {
-      padding-bottom: 0; } }
+      padding-bottom: 0;
+      padding-top: 45px; } }
 
 .small-hero {
   height: 500px; }

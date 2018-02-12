@@ -19,15 +19,18 @@
         </div>
     </div>
 </section>
-<section class="half-section max-width half-section-img big-padding">
-    <div class="half-contents">
-        <?php the_field('service-second-text') ?>
-    </div>
-    <div class="half-contents">
-        <img src="<?php the_field('service-second-img') ?>">
-    </div>
-</section>
-<!--<section class="half-grey-section">-->
+<div class="grey-section">
+    <section class="half-section max-width half-section-img big-padding">
+        <div class="half-contents">
+            <?php the_field('service-second-text') ?>
+        </div>
+        <div class="half-contents">
+            <img src="<?php the_field('service-second-img') ?>">
+        </div>
+    </section>
+</div>
+
+    <!--<section class="half-grey-section">-->
 <!--    <div class="half-section max-width half-section-img half-reverse">-->
 <!--        <div class="half-contents">-->
 <!--            <img src="--><?php //the_field('service-third-img') ?><!--">-->
