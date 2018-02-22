@@ -14,7 +14,7 @@
         </div>
     </section>
     <section class="book-form max-width">
-        <?php echo do_shortcode('[contact-form-7 id="97" title="Boka demo"]') ; ?>
+        <?php  echo do_shortcode(get_field('book-form')) ; ?>
     </section>
 
 <?php get_footer() ; ?>
